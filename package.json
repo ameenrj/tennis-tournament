@@ -1,0 +1,21 @@
+{
+  "name": "tennis-tournament",
+  "version": "1.0.0",
+  "description": "A collection of solved JavaScript challenges",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "compile": "tsc",
+    "dev": "tsc && node dist/index.js",
+    "test": "jest --watchAll --verbose"
+  },
+  "author": "Ameen Ramadan-Jradi <ameen.ramadan.jradi@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^24.0.23",
+    "@types/node": "^12.12.17",
+    "jest": "^24.9.0",
+    "ts-jest": "^24.2.0",
+    "typescript": "^3.7.3"
+  }
+}
